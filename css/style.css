@@ -1,0 +1,86 @@
+img.photo{
+    border-radius: 50%;
+    width: 20%;
+}
+h1{
+color: teal;
+text-shadow: 20px 10px 10px teal;
+font-size: 40px;
+font-style:italic;
+font-weight: bold;
+padding-bottom: 30px;
+text-align: center;
+}
+.head{
+    text-align: center;
+}
+.top{
+    text-align: center;
+    padding: 60px 30px 30px;
+    background-color: rgb(238, 244, 246);
+}
+.reg{
+    padding: 60px 30px 30px;
+    background-color: rgb(238, 244, 246);  
+}
+.user{
+    padding: 60px 60px 60px;
+    background-image: url(/image/images.jpg);
+}
+.user h1{
+    color: floralwhite;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: teal;
+  color: rgb(246, 251, 251);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: rgb(220, 231, 19);
+}
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
